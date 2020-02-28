@@ -1,10 +1,12 @@
 .header {
   position: relative;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: $gutter-times-four;
   width: 100%;
+  padding: $gutter 0;
   background-color: map-get($theme-colors, greyLightened);
 
   &__title {
@@ -13,7 +15,9 @@
   }
 
   &__children {
-    position: absolute;
-    right: $gutter;
+    @media (min-width: 768px) {  
+      position: absolute;
+      right: $gutter;
+    }
   }
 }

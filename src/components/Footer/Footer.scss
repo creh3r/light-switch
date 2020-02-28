@@ -4,5 +4,6 @@
   align-items: center;
   height: $gutter-times-four;
   width: 100%;
+  padding: $gutter 0;
   background-color: map-get($theme-colors, greyLightened);
 }
