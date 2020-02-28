@@ -1,11 +1,11 @@
 .tile {
   width: 50px;
   height: 50px;
-  border: 2px solid black;
+  border: 2px solid map-get($theme-colors, greyDarkened);
   cursor: pointer;
   outline: none;
 
   &--isActive {
-    background-color: red;
+    background-color: map-get($theme-colors, activeLight);
   }
 }

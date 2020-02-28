@@ -1,5 +1,4 @@
 import React from 'react';
-import './Tile.scss';
 
 type TileProps = {
   isActive: boolean,

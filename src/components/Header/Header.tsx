@@ -14,7 +14,9 @@ type HeaderProps = {
 function Header({ title, children }: HeaderProps) {
   return (
     <div className="header">
-      {title}
+      <div className="header__title">
+        {title}
+      </div>
       <div className="header__children">
         { children }
       </div>

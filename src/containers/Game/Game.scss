@@ -1,0 +1,11 @@
+.game {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  
+  &--won {
+    .tile {
+      background-color: map-get($theme-colors, victoryLight);
+    }
+  }
+}

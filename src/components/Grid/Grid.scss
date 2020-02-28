@@ -3,10 +3,10 @@
   justify-content: center;
   align-items: center;
   flex: 1;
-  padding: 16px;
+  padding: $gutter;
 
   &__inner {
-    border: 2px solid black;
+    border: 2px solid map-get($theme-colors, greyDarkened);
   }
 
   &__row {

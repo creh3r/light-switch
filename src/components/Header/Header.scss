@@ -1,0 +1,19 @@
+.header {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: $gutter-times-four;
+  width: 100%;
+  background-color: map-get($theme-colors, greyLightened);
+
+  &__title {
+    font-size: $font-size-header;
+    text-transform: uppercase;
+  }
+
+  &__children {
+    position: absolute;
+    right: $gutter;
+  }
+}

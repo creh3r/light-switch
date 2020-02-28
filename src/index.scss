@@ -1,0 +1,28 @@
+@import './styles/colors';
+@import './styles/font';
+@import './styles/gutter';
+
+@import './containers/game/Game.scss';
+@import './components/grid/Grid.scss';
+@import './components/tile/Tile.scss';
+@import './components/header/Header.scss';
+@import './components/footer/Footer.scss';
+@import './components/button/Button.scss';
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Spartan', sans-serif;
+  background-color: map-get($theme-colors, grey);
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  height: 100%;
+}
