@@ -8,4 +8,9 @@ describe('<Tile /> component', () => {
     const wrapper = shallow(<Tile />);
     expect(wrapper).toMatchSnapshot();
   });
+
+  it('... should have active class', () => {
+    const wrapper = shallow(<Tile isActive />);
+    expect(wrapper.find('.tile--isActive')).toHaveLength(1);
+  });
 });
