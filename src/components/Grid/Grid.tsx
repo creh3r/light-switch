@@ -1,5 +1,6 @@
 import React from 'react';
 import Tile from '../Tile';
+import './Grid.scss';
 
 type GridProps = {
   data: number[][],
