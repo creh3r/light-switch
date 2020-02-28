@@ -5,6 +5,9 @@ exports[`<Header /> component ... should match snapshot 1`] = `
   className="header"
 >
   <div
+    className="header__title"
+  />
+  <div
     className="header__children"
   />
 </div>
