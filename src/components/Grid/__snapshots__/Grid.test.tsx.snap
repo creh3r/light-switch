@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Grid /> component ... should match snapshot 1`] = `
+<div
+  className="grid"
+>
+  <div
+    className="grid__inner"
+  >
+    <div
+      className="grid__row"
+      key="0"
+    >
+      <Tile
+        clickHandler={[Function]}
+        isActive={false}
+        key="0"
+      />
+      <Tile
+        clickHandler={[Function]}
+        isActive={true}
+        key="1"
+      />
+    </div>
+    <div
+      className="grid__row"
+      key="1"
+    >
+      <Tile
+        clickHandler={[Function]}
+        isActive={true}
+        key="0"
+      />
+      <Tile
+        clickHandler={[Function]}
+        isActive={false}
+        key="1"
+      />
+    </div>
+  </div>
+</div>
+`;
