@@ -1,12 +1,12 @@
 @import './styles/colors';
 @import './styles/font';
 @import './styles/gutter';
-@import './containers/game/Game.scss';
-@import './components/grid/Grid.scss';
-@import './components/tile/Tile.scss';
-@import './components/header/Header.scss';
-@import './components/footer/Footer.scss';
-@import './components/button/Button.scss';
+@import './containers/Game/Game.scss';
+@import './components/Grid/Grid.scss';
+@import './components/Tile/Tile.scss';
+@import './components/Header/Header.scss';
+@import './components/Footer/Footer.scss';
+@import './components/Button/Button.scss';
 
 html,
 body {
